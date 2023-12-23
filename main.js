@@ -4,6 +4,7 @@ document.querySelector("#add").addEventListener("click", addOne);
 document.querySelector("#sub").addEventListener("click", subOne);
 document.querySelector("#mul").addEventListener("click", mulTwo);
 document.querySelector("#div").addEventListener("click", divTwo);
+document.querySelector("#zero").addEventListener("click", makeZero);
 
 function addOne() {
   total += 1;
@@ -22,5 +23,10 @@ function mulTwo() {
 
 function divTwo() {
   total /= 2;
+  document.querySelector("#result").innerText = total;
+}
+
+function makeZero() {
+  total = 0;
   document.querySelector("#result").innerText = total;
 }
