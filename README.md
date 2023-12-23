@@ -1,0 +1,1 @@
+This was just a test to try and understand beginner JS with document calls and a few functions to understand arithmetic in the browser. Some minor HTML and CSS to help create a calculator looking thing. Also added some character with Luffy :D
